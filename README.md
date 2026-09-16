@@ -1,4 +1,4 @@
-# 🤖 The Humanoid Project — AURA
+# 🤖 The Humanoid Project
 Hey welcome to AURA- Automated Unified Robotic Assistant.
 
 ### Developed by the Humanoid Team
