@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 # ====== CONFIGURATION ======
 class Config:
     """Centralized configuration with validation"""
-    API_KEY = "307ced77979248b8b8b0a07621cc9a3c"
+    API_KEY = os.environ.get("ASSEMBLYAI_API_KEY", "")
     # None = auto-detect the system default microphone (recommended).
     # Set to a specific integer only if you want to force a particular input device.
     MIC_DEVICE_ID = None
