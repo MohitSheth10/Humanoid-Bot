@@ -1,6 +1,10 @@
 # 🤖 AURA: Automated Unified Robotic Assistant
 
-My school's first student-built humanoid assistant. It registers faces, recognizes and greets people, and answers spoken questions about the school through a custom animated interface. It launched in front of 3,000 parents and students at Blitzing 2025.
+My school's first student-built humanoid assistant. It registers faces, recognizes and greets people, and answers spoken questions about the school through a custom animated interface. It launched in front of 3,000 parents and students at Blitzing 2025 and was featured in the Times of India Education Guide on December 17, 2025.
+
+<p align="center">
+  <img src="docs/aura.jpg" alt="AURA, the student-built humanoid, waving with its animated interface on the chest screen" height="480" />
+</p>
 
 ### Developed by the Humanoid Team
 **Head Coder and Team Lead: Mohit Sheth**
@@ -37,7 +41,7 @@ Python, OpenCV (face detection), LBPH with a KNN fallback (face recognition), Py
 ## ▶️ How to Run
 
 1. Install Python 3 and the libraries: `pip install opencv-contrib-python numpy pyttsx3 PyQt5 sounddevice scipy assemblyai pygame`
-2. Add your own AssemblyAI API key for speech-to-text.
+2. Get your own AssemblyAI API key and set it as an environment variable named `ASSEMBLYAI_API_KEY` (for example, `setx ASSEMBLYAI_API_KEY "your-key"` in Windows PowerShell, then reopen the terminal).
 3. Run `python HumanoidGui.py`. The GUI starts the other scripts for you:
    - `train.py` registers a new face from webcam samples
    - `recognise.py` recognizes and greets registered users
@@ -49,6 +53,12 @@ Python, OpenCV (face detection), LBPH with a KNN fallback (face recognition), Py
 
 - Answers come from a fixed list of school facts matched by keywords, so AURA can't answer other questions yet.
 - Speech-to-text needs an internet connection and an AssemblyAI key.
+
+---
+
+## 📰 In the press
+
+<img src="docs/education-guide-2025-12-17.jpg" alt="Times of India Education Guide page, December 17, 2025, featuring AURA" width="480" />
 
 ---
 
