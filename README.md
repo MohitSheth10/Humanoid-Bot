@@ -1,5 +1,9 @@
 # 🤖 AURA: Automated Unified Robotic Assistant
 
+**A face-recognizing humanoid assistant built by a student team and presented to 3,000+ people.**
+
+More by Mohit: [Soul Sync](https://github.com/MohitSheth10/Soul-Sync) · [Rail-Guard](https://github.com/MohitSheth10/Rail-Guard) · [Quorum](https://github.com/MohitSheth10/Quorum) · [All projects](https://github.com/MohitSheth10?tab=repositories)
+
 My school's first student-built humanoid assistant. It registers faces, recognizes and greets people, and answers spoken questions about the school through a custom animated interface. It launched in front of 3,000 parents and students at Blitzing 2025 and was featured in the Times of India Education Guide on December 17, 2025.
 
 <p align="center">
